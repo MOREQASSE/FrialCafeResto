@@ -1,3 +1,21 @@
+// Menu section toggle functionality
+document.addEventListener('DOMContentLoaded', function() {
+  // Close all menu sections by default
+  document.querySelectorAll('.menu-section .menu-grid').forEach(section => {
+    section.style.display = 'none';
+  });
+
+  // Add click handler to all section titles
+  document.querySelectorAll('.menu-section-title').forEach(title => {
+    title.addEventListener('click', function() {
+      const section = this.closest('.menu-section');
+      section.classList.toggle('open');
+      const grid = section.querySelector('.menu-grid');
+      grid.style.display = grid.style.display === 'none' ? 'grid' : 'none';
+    });
+  });
+});
+
 // Mobile nav toggle
 const navToggle = document.querySelector('.nav-toggle');
 const siteNav = document.querySelector('.site-nav');
