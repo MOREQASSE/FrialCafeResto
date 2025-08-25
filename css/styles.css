@@ -127,13 +127,63 @@ a:hover {
 }
 
 .btn-gold { 
-  background: var(--btn-bg);
-  color: var(--btn-text);
+  background: linear-gradient(135deg, #e6c05a 0%, #f5d36a 50%, #f8e1a0 100%);
+  color: #1a1007;
   font-family: "Montserrat", sans-serif;
+  border: 1px solid #d4af37;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
+
+/* Ensure text stays black by default */
+.btn-gold,
+.btn-gold i {
+  color: #1a1007;
+}
+
+.btn-gold:hover,
+.btn-gold:focus {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(212, 175, 55, 0.4);
+  background: linear-gradient(135deg, #f5d36a 0%, #f8e1a0 50%, #f5d36a 100%);
+}
+
+/* Change text and icon color to gold on hover */
+.btn-gold:hover,
+.btn-gold:focus,
+.btn-gold:hover i,
+.btn-gold:focus i {
+  color: #d4af37 !important;
+}
+
+.btn-gold:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+}
+
 .btn-green { 
-  background: green; 
-  color: white; 
+  background: linear-gradient(135deg, #1e7e34 0%, #28a745 50%, #34ce57 100%);
+  color: white;
+  border: 1px solid #1e7e34;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.btn-green:hover,
+.btn-green:focus {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(40, 167, 69, 0.3);
+  background: linear-gradient(135deg, #155724 0%, #1e7e34 50%, #28a745 100%);
+}
+
+.btn-green:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 3px rgba(0,0,0,0.2);
 }
 
 .btn-outline { 
