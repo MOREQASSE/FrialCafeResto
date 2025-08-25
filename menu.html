@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Menu | Frial Café Restaurant</title>
+  <meta name="description" content="Découvrez le menu de Frial Café Restaurant — Nos cafés, Milkshakes, Mojitos, Frappés, Crêpes et Pâtisseries." />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="icon" href="images/logoitem.png" type="image/png">
+  <link rel="shortcut icon" href="images/logoitem.png" type="image/png">
+  <!-- Open Graph for WhatsApp preview -->
+<meta property="og:title" content="Frial Café Restaurant – Café Premium à Safi">
+<meta property="og:description" content="Découvrez notre menu, ambiance chaleureuse, et carte de fidélité.">
+<meta property="og:image" content="images/logoitem.png">
+<meta property="og:type" content="website">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html">
+        <span class="brand-mark"><img src="images/logo.webp" alt="Logo Frial Café Restaurant"></span>
+        <span class="brand-text">Frial Café Restaurant</span>
+      </a>
+
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+      </button>
+
+      <nav class="site-nav" aria-label="Primary">
+        <ul>
+          <li><a href="index.html"><i class="fas fa-home"></i> Accueil</a></li>
+          <li><a href="menu.html" class="active"><i class="fas fa-utensils"></i> Menu</a></li>
+          <li><a href="loyalty.html"><i class="fas fa-user"></i> Carte de Fidélité</a></li>
+          <li><a href="index.html#contact" class="btn btn-sm"><i class="fas fa-envelope"></i> Contact</a></li>
+          <li><a class="btn btn-gold" href="tel:+221773332124" style="color: var(--nutella-dark);"><i class="fas fa-phone-alt"></i> Appeler</a></li>
+          <li><a class="btn btn-green" href="https://wa.me/212620419398" target="_blank" rel="noopener"><i class="fab fa-whatsapp"></i> WhatsApp</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="menu-page">
+    <section class="menu-hero">
+      <div class="container">
+        <h1 class="display"><i class="fas fa-utensils"></i> Notre Menu</h1>
+        <p class="lead"><i class="fas fa-heart"></i> Découvrez nos délices préparés avec passion</p>
+        <div class="loyalty-banner">
+          <a href="loyalty.html" class="btn btn-loyalty">
+            <i class="fas fa-trophy"></i> Découvrez notre Carte de Fidélité
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+
+        <!-- Nos cafees -->
+        <div class="menu-section">
+          <h2 class="menu-section-title" style="color: var(--strawberry);"><i class="fas fa-coffee"></i> Nos cafés <i class="fas fa-chevron-down menu-section-arrow"></i></h2>
+          <div class="menu-grid" id="cafees-grid">
+            <!-- Each item uses the same placeholder image; click to expand -->
+            <article class="menu-card" data-name="Nespresso">
+              <img src="images/menu.jpg" alt="Nespresso" class="menu-img" />
+              <div class="menu-info">
+                <h3 class="menu-name">Nespresso</h3>
+                <div class="menu-price">7 DH</div>
+              </div>
+            </article>
+
+            <article class="menu-card" data-name="Cafe au lait">
+              <img src="images/menu.jpg" alt="Cafe au lait" class="menu-img" />
+              <div class="menu-info">
+                <h3 class="menu-name">Cafe au lait</h3>
+                <div class="menu-price">8 DH</div>
+              </div>
+            </article>
+
+            <article class="menu-card" data-name="Cafe american">
+              <img src="images/menu.jpg" alt="Cafe american" class="menu-img" />
+              <div class="menu-info">
+                <h3 class="menu-name">Cafe american</h3>
+                <div class="menu-price">8 DH</div>
+              </div>
+            </article>
+
+            <article class="menu-card" data-name="Cappuccino">
+              <img src="images/menu.jpg" alt="Cappuccino" class="menu-img" />
+              <div class="menu-info">
+                <h3 class="menu-name">Cappuccino</h3>
+                <div class="menu-price">10 DH</div>
+              </div>
+            </article>
+
+            <article class="menu-card" data-name="Cafe moka">
+              <img src="images/menu.jpg" alt="Cafe moka" class="menu-img" />
+              <div class="menu-info">
+                <h3 class="menu-name">Cafe moka</h3>
+                <div class="menu-price">10 DH</div>
+              </div>
+            </article>
+
+            <article class="menu-card" data-name="Chocolat chaud">
+              <img src="images/menu.jpg" alt="Chocolat chaud" class="menu-img" />
+              <div class="menu-info">
+                <h3 class="menu-name">Chocolat chaud</h3>
+                <div class="menu-price">11 DH</div>
+              </div>
+            </article>
+
+            <article class="menu-card" data-name="Special DAHAR">
+              <img src="images/menu.jpg" alt="Special DAHAR" class="menu-img" />
+              <div class="menu-info">
+                <h3 class="menu-name">Special DAHAR</h3>
+                <div class="menu-price">12 DH</div>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <!-- Nos Milkshakes -->
+        <div class="menu-section">
+          <h2 class="menu-section-title" style="color: var(--strawberry);"><i class="fas fa-glass-whiskey"></i> Nos Milkshakes <i class="fas fa-chevron-down menu-section-arrow"></i></h2>
+          <div class="menu-grid" id="milkshakes-grid">
+            <article class="menu-card" data-name="Fraise milkshake">
+              <img src="images/menu.jpg" alt="Fraise milkshake" class="menu-img" />
+              <div class="menu-info">
+                <h3 class="menu-name">Fraise milkshake</h3>
+                <div class="menu-price">20 DH</div>
+              </div>
+            </article>
+
+            <article class="menu-card" data-name="Vanille milkshake">
+              <img src="images/menu.jpg" alt="Vanille milkshake" class="menu-img" />
+              <div class="menu-info">
+                <h3 class="menu-name">Vanille milkshake</h3>
+                <div class="menu-price">20 DH</div>
+              </div>
+            </article>
+
+            <article class="menu-card" data-name="Caramel milkshake">
+              <img src="images/menu.jpg" alt="Caramel milkshake" class="menu-img" />
+              <div class="menu-info">
+                <h3 class="menu-name">Caramel milkshake</h3>
+                <div class="menu-price">20 DH</div>
+              </div>
+            </article>
+
+            <article class="menu-card" data-name="Chocolat milkshake">
+              <img src="images/menu.jpg" alt="Chocolat milkshake" class="menu-img" />
+              <div class="menu-info">
+                <h3 class="menu-name">Chocolat milkshake</h3>
+                <div class="menu-price">20 DH</div>
+              </div>
+            </article>
+
+            <article class="menu-card" data-name="Cerelac milkshake">
+              <img src="images/menu.jpg" alt="Cerelac milkshake" class="menu-img" />
+              <div class="menu-info">
+                <h3 class="menu-name">Cerelac milkshake</h3>
+                <div class="menu-price">20 DH</div>
+              </div>
+            </article>
+
+            <article class="menu-card" data-name="Oreo milkshake">
+              <img src="images/menu.jpg" alt="Oreo milkshake" class="menu-img" />
+              <div class="menu-info">
+                <h3 class="menu-name">Oreo milkshake</h3>
+                <div class="menu-price">20 DH</div>
+              </div>
+            </article>
+
+            <article class="menu-card" data-name="Henrys milkshake">
+              <img src="images/menu.jpg" alt="Henrys milkshake" class="menu-img" />
+              <div class="menu-info">
+                <h3 class="menu-name">Henrys milkshake</h3>
+                <div class="menu-price">20 DH</div>
+              </div>
+            </article>
+
+            <article class="menu-card" data-name="Kit kat mikshake">
+              <img src="images/menu.jpg" alt="Kit kat mikshake" class="menu-img" />
+              <div class="menu-info">
+                <h3 class="menu-name">Kit kat mikshake</h3>
+                <div class="menu-price">22 DH</div>
+              </div>
+            </article>
+
+            <article class="menu-card" data-name="Mats milkashe">
+              <img src="images/menu.jpg" alt="Mats milkashe" class="menu-img" />
+              <div class="menu-info">
+                <h3 class="menu-name">Mats milkashe</h3>
+                <div class="menu-price">22 DH</div>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <!-- Nos Mojitos -->
+        <div class="menu-section">
+          <h2 class="menu-section-title" style="color: var(--strawberry);"><i class="fas fa-cocktail"></i> Nos Mojitos <i class="fas fa-chevron-down menu-section-arrow"></i></h2>
+          <div class="menu-grid" id="mojitos-grid">
+            <article class="menu-card" data-name="Mojito Classic">
+              <img src="images/menu.jpg" alt="Mojito Classic" class="menu-img" />
+              <div class="menu-info">
+                <h3 class="menu-name">Mojito Classic</h3>
+                <div class="menu-price">16 DH</div>
+              </div>
+            </article>
+
+            <article class="menu-card" data-name="Mojito grenadine">
+              <img src="images/menu.jpg" alt="Mojito grenadine" class="menu-img" />
+              <div class="menu-info">
+                <h3 class="menu-name">Mojito grenadine</h3>
+                <div class="menu-price">18 DH</div>
+              </div>
+            </article>
+
+            <article class="menu-card" data-name="Mojito Green mint">
+              <img src="images/menu.jpg" alt="Mojito Green mint" class="menu-img" />
+              <div class="menu-info">
+                <h3 class="menu-name">Mojito Green mint</h3>
+                <div class="menu-price">18 DH</div>
+              </div>
+            </article>
+
+            <article class="menu-card" data-name="Mojito blueberry">
+              <img src="images/menu.jpg" alt="Mojito blueberry" class="menu-img" />
+              <div class="menu-info">
+                <h3 class="menu-name">Mojito blueberry</h3>
+                <div class="menu-price">18 DH</div>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <!-- Nos Frappes -->
+        <div class="menu-section">
+          <h2 class="menu-section-title" style="color: var(--strawberry);"><i class="fas fa-glass-whiskey"></i> Nos Frappés <i class="fas fa-chevron-down menu-section-arrow"></i></h2>
+          <div class="menu-grid" id="frappes-grid">
+            <article class="menu-card" data-name="Chocolat frappe">
+              <img src="images/menu.jpg" alt="Chocolat frappe" class="menu-img" />
+              <div class="menu-info">
+                <h3 class="menu-name">Chocolat frappe</h3>
+                <div class="menu-price">18 DH</div>
+              </div>
+            </article>
+
+            <article class="menu-card" data-name="Vanille frappe">
+              <img src="images/menu.jpg" alt="Vanille frappe" class="menu-img" />
+              <div class="menu-info">
+                <h3 class="menu-name">Vanille frappe</h3>
+                <div class="menu-price">18 DH</div>
+              </div>
+            </article>
+
+            <article class="menu-card" data-name="Caramel frappe">
+              <img src="images/menu.jpg" alt="Caramel frappe" class="menu-img" />
+              <div class="menu-info">
+                <h3 class="menu-name">Caramel frappe</h3>
+                <div class="menu-price">18 DH</div>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <!-- Nos crepes -->
+        <div class="menu-section">
+          <h2 class="menu-section-title" style="color: var(--strawberry);"><i class="fas fa-pancakes"></i> Nos Crêpes <i class="fas fa-chevron-down menu-section-arrow"></i></h2>
+          <div class="menu-grid" id="crepes-grid">
+            <article class="menu-card" data-name="Crepe nature">
+              <img src="images/menu.jpg" alt="Crepe nature" class="menu-img" />
+              <div class="menu-info">
+                <h3 class="menu-name">Crepe nature</h3>
+                <div class="menu-price">5 DH</div>
+              </div>
+            </article>
+
+            <article class="menu-card" data-name="Crepe nutella">
+              <img src="images/menu.jpg" alt="Crepe nutella" class="menu-img" />
+              <div class="menu-info">
+                <h3 class="menu-name">Crepe nutella</h3>
+                <div class="menu-price">12 DH</div>
+              </div>
+            </article>
+
+            <article class="menu-card" data-name="Crepe confiture">
+              <img src="images/menu.jpg" alt="Crepe confiture" class="menu-img" />
+              <div class="menu-info">
+                <h3 class="menu-name">Crepe confiture</h3>
+                <div class="menu-price">13 DH</div>
+              </div>
+            </article>
+
+            <article class="menu-card" data-name="Crepe nutella caramel">
+              <img src="images/menu.jpg" alt="Crepe nutella caramel" class="menu-img" />
+              <div class="menu-info">
+                <h3 class="menu-name">Crepe nutella caramel</h3>
+                <div class="menu-price">14 DH</div>
+              </div>
+            </article>
+
+            <article class="menu-card" data-name="Crepe nutella banane">
+              <img src="images/menu.jpg" alt="Crepe nutella banane" class="menu-img" />
+              <div class="menu-info">
+                <h3 class="menu-name">Crepe nutella banane</h3>
+                <div class="menu-price">16 DH</div>
+              </div>
+            </article>
+
+            <article class="menu-card" data-name="Crepe nutella fruits secs">
+              <img src="images/menu.jpg" alt="Crepe nutella fruits secs" class="menu-img" />
+              <div class="menu-info">
+                <h3 class="menu-name">Crepe nutella fruits secs</h3>
+                <div class="menu-price">17 DH</div>
+              </div>
+            </article>
+
+            <article class="menu-card" data-name="Crepe nutella oreo">
+              <img src="images/menu.jpg" alt="Crepe nutella oreo" class="menu-img" />
+              <div class="menu-info">
+                <h3 class="menu-name">Crepe nutella oreo</h3>
+                <div class="menu-price">18 DH</div>
+              </div>
+            </article>
+
+            <article class="menu-card" data-name="Crepe nutella kinder">
+              <img src="images/menu.jpg" alt="Crepe nutella kinder" class="menu-img" />
+              <div class="menu-info">
+                <h3 class="menu-name">Crepe nutella kinder</h3>
+                <div class="menu-price">18 DH</div>
+              </div>
+            </article>
+
+            <article class="menu-card" data-name="Crepe nutella kitkat">
+              <img src="images/menu.jpg" alt="Crepe nutella kitkat" class="menu-img" />
+              <div class="menu-info">
+                <h3 class="menu-name">Crepe nutella kitkat</h3>
+                <div class="menu-price">18 DH</div>
+              </div>
+            </article>
+
+            <article class="menu-card" data-name="Crepe nutella lotus caramel">
+              <img src="images/menu.jpg" alt="Crepe nutella lotus caramel" class="menu-img" />
+              <div class="menu-info">
+                <h3 class="menu-name">Crepe nutella lotus caramel</h3>
+                <div class="menu-price">20 DH</div>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <!-- Nos patisseries -->
+        <div class="menu-section">
+          <h2 class="menu-section-title" style="color: var(--strawberry);"><i class="fas fa-cookie-bite"></i> Nos Pâtisseries <i class="fas fa-chevron-down menu-section-arrow"></i></h2>
+          <div class="menu-grid" id="patisseries-grid">
+            <article class="menu-card" data-name="Brownies">
+              <img src="images/menu.jpg" alt="Brownies" class="menu-img" />
+              <div class="menu-info">
+                <h3 class="menu-name">Brownies</h3>
+                <div class="menu-price">8 DH</div>
+              </div>
+            </article>
+
+            <article class="menu-card" data-name="Cookies">
+              <img src="images/menu.jpg" alt="Cookies" class="menu-img" />
+              <div class="menu-info">
+                <h3 class="menu-name">Cookies</h3>
+                <div class="menu-price">7 DH</div>
+              </div>
+            </article>
+
+            <article class="menu-card" data-name="Cake">
+              <img src="images/menu.jpg" alt="Cake" class="menu-img" />
+              <div class="menu-info">
+                <h3 class="menu-name">Cake</h3>
+                <div class="menu-price">5 DH</div>
+              </div>
+            </article>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- Lightbox modal -->
+  <div class="lightbox" role="dialog" aria-modal="true" aria-label="Image preview">
+    <button class="lightbox-close" aria-label="Close preview">×</button>
+    <img src="" alt="" class="lightbox-img" />
+    <div class="lightbox-caption"></div>
+  </div>
+
+  <footer class="footer">
+    <div class="footer-grid">
+      <!-- Colonne 1 : Logo & Description -->
+      <div class="map-wrap">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6745.332973442225!2d-9.239336658691405!3d32.293943600000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdac219ecb8da455%3A0xf3963bc4729cbc0c!2sNutella%20Mine!5e0!3m2!1sar!2sma!4v1755331969998!5m2!1sar!2sma" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+  
+      <!-- Colonne 2 : Liens rapides -->
+      <div class="footer-links">
+        <h4>Liens rapides</h4>
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="loyalty.html">Carte de Fidélité</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+      </div>
+  
+      <!-- Colonne 3 : Coordonnées -->
+      <div class="footer-contact">
+        <h4>Contact</h4>
+        <p><i class="fas fa-map-marker-alt"></i> Avenue Hassan II, Essaouira, Maroc</p>
+        <p><i class="fas fa-phone"></i> +212 6 12 34 56 78</p>
+        <p><i class="fas fa-envelope"></i> contact@daharcoffee.ma</p>
+      </div>
+  
+      <!-- Colonne 4 : Newsletter -->
+      <div class="footer-newsletter">
+        <h4>Newsletter</h4>
+        <p>Recevez nos dernières offres et nouveautés directement dans votre boîte mail.</p>
+        <form>
+          <input type="email" placeholder="Votre e-mail" required>
+          <button type="submit">S'abonner</button>
+        </form>
+      </div>
+    </div>
+  
+    <!-- Bas de footer -->
+    <div class="footer-bottom">
+      <p>© 2025 Frial Café Restaurant — Tous droits réservés</p>
+      <p>Project by <a href="https://devaxio.com" target="_blank" rel="noopener">Devaxio</a></p>
+      <div class="social-icons">
+        <a href="https://web.facebook.com/profile.php?id=61573656069184#" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/nutella.safi" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="#" aria-label="home"><i class="fas fa-home"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
